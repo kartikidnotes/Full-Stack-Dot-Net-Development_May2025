@@ -7,11 +7,18 @@ import { Lifecycle } from "./lifecycle/lifecycle";
 import { Structuraldirectives } from "./structuraldirectives/structuraldirectives";
 import { Attributedirective } from "./attributedirective/attributedirective";
 import { Componentdirective } from "./componentdirective/componentdirective";
+<<<<<<< HEAD
 import { Parentoutputdecorator } from './parentoutputdecorator/parentoutputdecorator';
 
 @Component({
   selector: 'app-root',
   imports: [RouterOutlet, Basic, Datatypes, Standaloneexample, Lifecycle, Structuraldirectives, Attributedirective, Componentdirective,Parentoutputdecorator],
+=======
+
+@Component({
+  selector: 'app-root',
+  imports: [RouterOutlet, Basic, Datatypes, Standaloneexample, Lifecycle, Structuraldirectives, Attributedirective, Componentdirective],
+>>>>>>> 6c6cb5589705ffd2852ef8f90c9686db2e3b6033
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
